@@ -1,0 +1,52 @@
+body{
+    background-image: url(../../img/pexels-haberdoedas-32934635.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.715);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.625rem;
+}
+nav h3{
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a{ 
+    color: white;
+    text-decoration: none;
+    margin: 0.625rem;
+}
+header{
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    nav{
+        display: block;
+    }
+    nav ul{
+        display: block;
+    }
+    nav li{
+        margin-top: 15px;
+    }
+    header{
+        margin-top: 100px;
+    }
+}

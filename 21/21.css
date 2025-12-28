@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+body{
+    background-image:linear-gradient(100deg,rgb(251, 195, 172),rgb(146, 183, 237),rgb(207, 247, 157));
+    margin: 0%;
+    font-family:  "Delius", cursive;
+}
+header{
+    background-image: linear-gradient(to
+    left,rgb(134, 40, 225),rgb(82, 5, 225));
+    color: white ;
+    text-align: center;
+    padding: 25px;
+}
+.section1{
+    background-image:linear-gradient(to left,rgb(255, 157, 161),rgb(251, 199, 191));
+    color: black;
+    border: solid 0px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+.section2{
+    background-image:linear-gradient(to left,rgb(168, 144, 211),rgb(240, 188, 232));
+    color: white;
+    border: solid 0px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+.section3{
+    background-color: white;
+    color: black;
+    border: solid 0px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+img{
+    text-align: center;
+    width: 100%;
+    border: solid 3px pink;
+    border-radius: 5px;
+}
+.section4{
+    background-color: white;
+    color: black;
+    border: solid 0px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+.ul1{
+    padding-left: 9px;
+}
+.ul2{
+    padding-left: 19px;
+}
+.ul3{
+    padding-left: 20px;
+}
+.section5{
+    background-color: white;
+    color: black;
+    border: solid 0px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+.section6{
+    background-image:linear-gradient(to left,rgb(255, 157, 161),rgb(251, 199, 191));
+    color: black;
+    border: solid 0px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+.div1{
+    text-align: center;
+}
+video{
+    width: 50%;
+    border: solid 3px rgb(166, 217, 170);
+    border-radius: 5px;
+}
+footer{
+    background-image: linear-gradient(to
+    left,rgb(62, 190, 163),rgb(34, 119, 159));
+    color: white ;
+    text-align: center;
+    padding: 25px;
+}

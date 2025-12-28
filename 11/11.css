@@ -1,0 +1,45 @@
+header{
+    background-color: rgba(45, 32, 60, 0.564);
+    color: white;
+    text-align: center;
+}
+
+span{
+    color: brown;
+}
+
+nav{
+    background-color: rgba(14, 11, 11, 0.937);
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+.A{
+    background-color: rgba(79, 44, 111, 0.108);
+}
+
+.G{
+    background-color: rgba(0, 255, 255, 0.074);
+}
+
+.U{
+    background-color: rgba(255, 235, 205, 0.258);
+}
+
+.C{
+    background-color: rgba(127, 255, 212, 0.167);
+}
+
+footer{
+    background-color: rgba(14, 11, 11, 0.937);
+    color: white;
+    text-align: center;
+}
+
+.lastanchor{
+    color: blue;
+}
+

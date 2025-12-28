@@ -1,0 +1,161 @@
+body{
+    background-image:linear-gradient(140deg,rgb(32, 63, 120),rgb(40, 79, 148));
+    margin: 0;
+}
+a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(44, 80, 148);
+    border-radius: 5px;
+}
+nav{
+    background-color: rgb(30, 59, 114);
+    text-align: center;
+    padding: 10px ;
+    position: sticky;
+    top: 0;
+}
+header{
+    color: white;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+.big1{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.big3{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.big4{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+h3{
+    color: blue;
+    padding: 10px;
+    margin-top: 0%;
+}
+p{
+    color: rgb(221, 206, 210);
+    padding-left: 4px;
+}
+.card{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    width: 30%;
+    transition: 1s;
+}
+.shadow:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.color:hover{
+    background-color: skyblue;
+}
+.color:hover h3,.color:hover p{
+    color: white;
+}
+.border{
+    border: solid transparent 3px;
+}
+.border:hover{
+    border: solid red 3px;
+} 
+.opacity{
+    background-color: rgb(189, 199, 217);
+}
+.opacity:hover{
+    background-color: white;
+}
+.glow:hover{
+    box-shadow: 0px 0px 10px white;
+}
+.gradient{
+    background-image: linear-gradient(to right,rgb(105, 121, 227),rgb(115, 86, 177));
+    color: white;
+}
+.gradient h3{
+    color: white;
+}
+.gradient:hover{
+    background-image: linear-gradient(to right,rgb(240, 142, 238),rgb(245, 100, 138));
+}
+.fillbutton{
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 8px;
+}
+.fillbutton:hover{
+    background-color: rgb(42, 81, 152);
+}
+.outlinebutton{
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    border: solid white 2px;
+    padding: 8px;
+}
+.outlinebutton:hover{
+    background-color: white;
+    color: blue;
+}
+.glowbutton{
+    background-color: rgba(255, 99, 71, 0.753);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 8px;
+}
+.glowbutton:hover{
+    background-color: tomato;
+    box-shadow: 0px 0px 10px tomato;
+}
+.UnderlineLink{
+    color: white;
+    margin: 15px auto;
+    padding: 8px;
+    text-align: center;
+    border: transparent solid 3px;
+}
+.UnderlineLink:hover{
+    border-bottom: solid 3px white;
+}
+.ColorChangeLink{
+    color: white;
+    margin: 15px auto;
+    padding: 8px;
+    text-align: center;
+}
+.ColorChangeLink:hover{
+    color: rgb(158, 171, 126);
+}
+.BackgroundLink{
+    background-color: rgba(98, 126, 172, 0.651);
+    color: white;
+    border-radius: 3px;
+    margin: 15px auto;
+    padding: 8px;
+    text-align: center;
+}
+.BackgroundLink:hover{
+    background-color: rgb(98, 126, 172);
+}

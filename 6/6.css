@@ -1,0 +1,24 @@
+h1{
+    background-color: brown;
+}
+
+div{
+    background-color: lightgoldenrodyellow;
+}
+
+p{
+    color: rgb(174, 107, 7);
+}
+
+span{
+    color: black;
+}
+
+thead{
+    background-color: rgb(6, 107, 184);
+    color: rgb(252, 253, 254);
+}
+
+tbody,tfoot{
+    background-color: rgb(180, 246, 246);
+}

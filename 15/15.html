@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="15.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>User Information</p>
+    <form action="file">
+        <div>
+                        <label>Username:</label> <br>
+                        <input type="text" required minlength="5" maxlength="25" name="user">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Password:</label> <br>
+                        <input type="password" required minlength="5" maxlength="10" name="pass">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Email:</label> <br>
+                        <input type="email" required minlength="5" maxlength="25"  name="mail">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Age:</label> <br>
+                        <input type="number" required min="1" max="100" name="age">
+                    </div>
+                    <br>
+                    <hr>
+                    <p>Preferences</p>
+                    <div>
+                        <label>Volume:</label> <br>
+                        <input type="range" value="50" min="0" max="100" name="volume">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Favorite Color:</label> <br>
+                        <input type="color" name="color">
+                    </div>
+                    <br>
+                    <hr>
+                    <p>Choices</p>
+                    <div>
+                        <label>Gender:</label> <br>
+                        <br>
+                        <input id="male" type="radio" value="male" name="os" required>
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input id="female" type="radio" value="female" name="os" required>
+                        <label for="female"> Female</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Hobbies:</label> <br> <br>
+                            <input id="reading" type="checkbox" value="reading" name="os">
+                            <label for="reading"> Reading</label>
+                    </div>
+                    <div>
+                            <input id="sports" type="checkbox" value="sports" name="os">
+                            <label for="sports"> Sports</label>
+                        </div>
+                    <div>
+                            <input id="music" type="checkbox" value="music" name="os">
+                            <label for=" music"> Music</label>
+                        </div>
+                        <br>
+                        <div></div><label for="country">Select Country:</label> <br>
+                        <select name="country" id="country">
+                            <optgroup label="Europe">
+                                <option value="Germany">Germany</option>
+                                <option value="France">France</option>
+                            </optgroup>
+                            <optgroup label="Asia">
+                                <option value="Japan">Japan</option>
+                                <option value="China">China</option>
+                            </optgroup>
+                            </select>
+                            <hr>
+                            <p>Submit</p>
+                            <input type="submit" value="Submit Form">
+    </form>
+                    
+
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="14.css">
+</head>
+<body>
+    <nav>
+        <a href="#F">Form</a>
+        <a href="#I">Image</a>
+        <a href="#T">Table</a>
+        <a href="#L">Lists</a>
+        <a href="#A">Audio</a>
+    </nav>
+
+    
+
+                <section>
+                    <h1 id="F">Form Example</h1>
+                    <form action="file.js" method="get">
+                    <div>
+                        <label>Username:</label>
+                        <input type="text" required minlength="5" maxlength="25" placeholder="name" name="user">
+                    </div>
+                    <br>
+                    
+                    <div>
+                        <label>Password:</label>
+                        <input type="password" required minlength="5" maxlength="10" placeholder="pass" name="pass">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" required minlength="5" maxlength="25" placeholder="mail" name="mail">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Gender:</label>
+                        <input id="Male" type="radio" name="Gender" value="Male" required>
+                        <label for="Male">Male</label>
+
+                        <input id="Female" type="radio" name="Gender" value="Female" required>
+                        <label for="Female">Female</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Interests:</label>
+                        <br>
+                        <input type="checkbox" name="Interests" value="Coding">
+                        <label>Coding</label>
+                        <br>
+                        <input type="checkbox" name="Interests" value="Reading">
+                        <label>Reading</label>
+                        <br>
+                        <input type="checkbox" name="Interests" value="Gaming">
+                        <label>Gaming</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Disabled Field:</label>
+                        <input type="text" value="disabled" disabled>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Readonly Field:</label>
+                        <input type="text" value="readonly" readonly>
+                    </div>
+                    <br>
+                    <input type="submit">
+                </form>
+                </section>
+
+                <hr>
+
+                <section>
+                    <h1 id="I">Image Example</h1>
+
+                <img src="../12/pexels-thuan-33498261.jpg" alt="not found" width="300" height="200">
+
+                </section>
+
+                <hr>
+
+                <section>
+                    <h1 id="T">Example Table</h1>
+                <table border="">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>28</td>
+                            <td>USA</td>
+                        </tr>
+                        <tr>
+                            <td>Jane</td>
+                            <td>34</td>
+                            <td>UK</td>
+                        </tr>
+                        <tr>
+                            <td>Ahmed Ali</td>
+                            <td>25</td>
+                            <td>Egypt</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </section>
+
+                <hr>
+
+                <section>
+                    <h1 id="L">Lists Example</h1>
+                <h3>Ordered List</h3>
+                <ol>
+                    <li>htdjfktu</li>
+                    <li>htdjfktu</li>
+                    <li>htdjfktu</li>
+                </ol>
+
+                <h3>Unordered List</h3>
+                <ul>
+                    <li>Item A</li>
+                    <li>Item B</li>
+                    <li>Item C</li>
+                </ul>
+                </section>
+
+                <hr>
+
+                <section>
+                    <h1 id="A">Audio Example</h1>
+                <audio controls autoplay loop muted>
+                <source src="the-last-point-beat-electronic-digital-394291.mp3" type="">
+            </audio>
+                </section>
+
+
+            
+</body>
+</html>

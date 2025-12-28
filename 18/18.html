@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="18.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My website</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Section 1: Underline, Bold, and Italic Text</h2>
+            <br>
+            <p><u>Lorem ipsum, dolor sit amet consectetur adipisicing <b>Nobis!</b></u></p>
+            <br>
+            <p><b>Lorem ipsum dolor sit.</b> <i>amet consectetur adipisicing</i></p>
+            <br>
+            <p><u>Lorem ipsum dolor sit amet consectetur </u></p>
+        </section>
+        <section>
+            <h2>Section 2: Form</h2>
+            <form>
+                <div>
+                    <label>Name:</label> <br>
+                        <input type="text" required placeholder="Enter your name" minlength="5" maxlength="25" name="user">
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <label>Email:</label> <br>
+                        <input type="mail" required placeholder="Enter your email"  minlength="5" maxlength="25"  name="mail">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Age:</label> <br>
+                        <input type="number" required min="1" max="100" name="age">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Gender:</label> <br>
+                    <select name="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="text">Message:</label> <br>
+                    <textarea name="message" id="text" placeholder="write your message"></textarea>
+                    </div>
+                    <br>
+                    <input class="submit" type="submit">
+            </form>
+        </section>
+        <section>
+            <h2>Section 3: Table</h2>
+
+            <table border="">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Doe</td>
+                        <td>30</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Smith</td>
+                        <td>25</td>
+                        <td>London</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Section 4: Audio</h2>
+
+            <audio controls autoplay loop muted>
+                <source src="../13/the-last-point-beat-electronic-digital-394291.mp3" type="Audio/mp4">
+            </audio>
+        </section>
+        <section>
+            <h2>Section 5: Video</h2>
+
+            <video loop muted autoplay>
+                <source src="../12/12056400_3840_2160_30fps.mp4" type="Video/mp4">
+            </video>
+        </section>
+        <section>
+            <h2>Section 6: Image</h2>
+
+            <img src="../11/pexels-jonathanborba-33583867.jpg" alt="not found" width="800" height="400">
+        </section>
+        <section>
+            <h2>Section 7: Lists</h2>
+
+            <h4>Unordered List</h4>
+
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3 
+                    <ul class="list">
+                        <li>Sub-item 1</li>
+                        <li>Sub-item 2</li>
+                        <li>Sub-item 3</li>
+                    </ul>
+                </li>
+                <li>Item 4</li>
+            </ul>
+
+            <h4>Ordered Lists</h4>
+
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item 
+                    <ol class="list">
+                        <li>Sub-item 1</li>
+                        <li>Sub-item 2</li>
+                        <li>Sub-item 3</li>
+                    </ol>
+                </li>
+                <li>Fourth item</li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>

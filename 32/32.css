@@ -1,0 +1,115 @@
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+nav h3{
+    background-image: linear-gradient(to right,rgb(106, 121, 222),rgb(112, 88, 183));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a{ 
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+nav a:hover{
+    
+}
+nav p{
+    background-image: linear-gradient(to right,rgb(106, 121, 222),rgb(112, 88, 183));
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+}
+nav p:hover{
+    
+}
+main{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 25px;
+    margin: auto;
+}
+.header{
+    width:30%;
+}
+main h1{
+    background-image: linear-gradient(to right,rgb(106, 121, 222),rgb(112, 88, 183));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+main p{
+    color:rgb(163, 163, 164);
+    margin:20px 0px;    
+}
+.click{
+    display: flex;
+}
+.start{
+    background-image: linear-gradient(to right,rgb(106, 121, 222),rgb(112, 88, 183));
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    width: fit-content;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.start:hover{
+    
+}
+.watch{
+    background-color: white;
+    padding: 15px;
+    color:rgb(158, 165, 225);
+    border: solid 2px rgb(158, 165, 225);
+    border-radius: 30px;
+    width: fit-content;
+    transition: 0.5s;
+}
+.watch:hover{
+    background-color: blue;
+    color: white;
+    border: solid 2px blue;
+}
+.card div{
+    background-image: linear-gradient(to right,rgb(106, 121, 222),rgb(112, 88, 183));
+    width: 125px;
+    height: 150px;
+    border-radius: 10px;
+    animation-name: square;
+    animation-duration: 5s;
+
+}
+@keyframes square{
+    0%{
+        transform: rotateX(0deg);
+    }
+    50%{
+        transform: rotateX(20deg);
+    }
+    100%{
+        transform: rotateX(20deg);
+    }
+
+}

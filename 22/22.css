@@ -1,0 +1,126 @@
+
+body{
+    margin: 0%;
+    font-family: "Delius", cursive ;
+}
+header{
+    background-color: rgb(0, 102, 204);
+    color: white ;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    color: black;
+}
+a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+nav{
+    background-color: rgb(29, 29, 34);
+    text-align: center;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+}
+section{
+    color: black;
+    border: solid 0px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 30px auto;
+}
+.numbers{
+    background-color: rgb(229, 229, 229);
+    height: 200px;
+    padding: 10px;
+    border: solid rgb(242, 242, 242) 15px;
+    border-radius: 5px;
+}
+.numbers div{
+    height: 50px;
+}
+.fruits{
+    background-color: rgb(229, 229, 229);
+    height: 200px;
+    padding: 10px;
+    border: solid rgb(242, 242, 242) 15px;
+    border-radius: 5px;
+}
+.fruits div{
+    height: 50px;
+}
+.one{
+    position: relative;
+    background-color: rgb(53, 197, 88);
+    color: white;
+    border: solid 0px;
+    border-radius: 3%;
+    top: 200px;
+
+}
+.two{
+    position: relative;
+    background-color: rgb(6, 100, 200);
+    color: white;
+    border: solid 0px;
+    border-radius: 3%;
+    left: 50px;
+}
+.three{
+    position: relative;
+    background-color: rgb(243, 56, 42);
+    color: white;
+    border: solid 0px;
+    border-radius: 3%;
+    left: 30px;
+    top: 94px;
+}
+.fruits{
+    background-color: rgb(229, 229, 229);
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border: solid rgb(242, 242, 242) 15px;
+    border-radius: 5px;
+    position: absolute;
+}
+.fruits div{
+    height: 50px;
+}
+.pear{
+    position: absolute;
+    background-color: rgb(53, 197, 88);
+    color: white;
+    right: 0;
+    top: 0;
+}
+.berry{
+    position: absolute;
+    background-color: rgb(6, 100, 200);
+    color: white;
+    top: 0;
+    left: 0;
+}
+.apple{
+    position: absolute;
+    background-color: rgb(243, 56, 42);
+    color: white;
+    right: 0;
+    bottom: 0;
+}
+.orange{
+    position: absolute;
+    background-color: rgb(255, 149, 0);
+    color: white;
+    bottom: 0;
+    left: 0;
+}
+footer{
+    background-color: rgb(29, 29, 31);
+    color: white ;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(36, 69, 130);
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-color: rgb(18, 38, 72);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    animation-name: shadow ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+@keyframes shadow {
+    0%{
+        text-shadow: 0px 0px 0px #a1e2f7;
+    }
+    50%{
+        text-shadow: 0px 0px 20px #a1e2f7,
+        0px 0px 20px #a1e2f7;
+    }
+    100%{
+        text-shadow: 0px 0px 0px #a1e2f7;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    transition: 1s;
+    display: inline-block;
+}
+a:hover{
+    background-color: rgb(63, 89, 122);
+    border-radius: 3px;
+    transform: scale(1.1);
+}
+h3{
+    margin-bottom: 30px;
+}
+.welcome{
+    text-align: center;
+    background-color: rgb(255, 118, 145);
+    color: white;
+    padding: 50px;
+    animation-name: move;
+    animation-duration: 2s;
+}
+@keyframes move {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.card{
+    display: flex;
+}
+.card2{
+    background-image: linear-gradient(to right, rgb(59, 185, 162),rgb(38, 123, 159));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.419);
+    border-radius: 5px;
+    text-align: center;
+    width: 15%;
+    padding: 25px;
+    margin: 30px;
+    transition: 0.5s;
+}
+.card2:hover{
+    transform: translatey(-10px) rotate(-5deg);
+    box-shadow: 0px 3px 10px black;
+}
+.hire{
+    background-image: linear-gradient(to right,rgb(251, 82, 30),rgb(242, 27, 98));
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}

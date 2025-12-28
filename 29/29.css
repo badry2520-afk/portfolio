@@ -1,0 +1,122 @@
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+}
+main{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+nav h5{
+    color: blue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a{ 
+    color: black;
+    text-decoration: none;
+    margin: 1.5625rem;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: blue;
+}
+.card{
+    background-color: rgb(247, 249, 251);
+    padding: 80px;
+    text-align: center;
+}
+header p{
+    color: rgb(171, 172, 181);
+    font-size: small;
+    margin-top: 0.625rem;
+}
+.card2{
+    width: 30%;
+    margin: auto;
+}
+.text{
+    display: flex;
+    width: 20%;
+    margin: auto;
+}
+.Getstarted{
+    width: fit-content;
+    background-color: blue;
+    color: white;
+    border-radius: 0.1875rem;
+    padding: 0.3125rem;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.Getstarted:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 255, 0.73);
+}
+.Learnmore{
+    width: fit-content;
+    background-color: white;
+    color: blue;
+    border: solid 0.0938rem;
+    border-radius: 0.1875rem;
+    padding: 0.2188rem;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.Learnmore:hover{
+    transform: scale(1.1);
+}
+.card3 p{
+    color: rgb(171, 172, 181);
+    font-size: small;
+    margin-top: 0.625rem;
+}
+.card3{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.card4{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0rem 0.125rem 0.1875rem ;
+    width: 70%;
+    margin: 1.875rem;
+    padding: 1.5625rem;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.card4:hover{
+    transform: scale(1.1);
+}
+footer h5{
+    color: white;
+    margin-left: 0.9375rem;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+footer a{ 
+    color: white;
+    text-decoration: none;
+    margin: 1.5625rem;
+    transition: 0.5s;
+}
+footer a:hover{
+    color: blue;
+}
+footer{
+    background-color: rgb(29, 41, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem;
+}

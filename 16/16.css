@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    background-color: #2D2D2D;
+}
+
+nav{
+    background-color: #333333;
+}
+
+a{
+    color: #005A22;
+}
+
+section{
+    background-color: #2D2D2D;
+}
+
+footer{
+    background-color: #2D2D2D;
+    color: #005A22;
+}
+

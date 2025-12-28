@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(11, 10, 15);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../../img/pexels-haberdoedas-32934635.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 31.25rem;
+}
+nav{
+    display: flex;
+    padding: 10px;
+}
+nav h1{
+    background-image: linear-gradient(to right,rgb(34, 219, 255),rgb(211, 43, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+ul{
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+a:hover{
+    display: block;
+    color: aqua;
+    transform: scale(1.1) ;
+}
+.header span{
+    background-image: linear-gradient(to right,rgb(34, 219, 255),rgb(211, 43, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+.header{
+    text-align: center;
+    margin: 1.5625rem;
+}
+.header h1{
+    color: white;
+}
+.header p{
+    color: rgb(101, 111, 127);
+}
+.card1{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.LAUNCHMISSION{
+    padding: 1.25rem;
+    margin: 0.9375rem;
+    background-image: linear-gradient(to right,rgb(34, 219, 255),rgb(211, 43, 255));
+    border-radius: 0.3125rem;
+    transition: 0.5s;
+}
+.LAUNCHMISSION:hover{
+    transform: translatey(-0.3125rem) rotate(3deg) scale(1.1);
+    box-shadow: 0rem 0rem 0.4375rem rgb(167, 87, 255);
+}
+.LEARNMORE{
+    padding: 1.25rem;
+    margin: 0.9375rem;
+    color: rgb(61, 152, 154);
+    border: solid 0.125rem rgb(61, 152, 154);
+    border-radius: 0.3125rem;
+    transition: 0.5s;
+}
+.LEARNMORE:hover{
+    transform: translatey(-0.3125rem) rotate(3deg) scale(1.1);
+    box-shadow: 0rem 0rem 0.4375rem rgb(61, 152, 154);
+    text-shadow: 0rem 0rem 0.4375rem rgb(61, 152, 154);
+}
+.card2{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.card2 div{
+    background-image: linear-gradient(to right,rgb(34, 219, 255),rgb(211, 43, 255));
+    margin: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 1.5625rem;
+    transition: 0.5s;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle {
+    0%{
+        translate: 0 0;
+    }
+    50%{
+        translate: 0 15px;
+    }
+    100%{
+        translate: 0 0;
+    }
+}
+.card2 div:hover{
+    box-shadow: 0rem 0rem 0.3125rem rgb(167, 87, 255);
+}
+.div1{
+    animation-timing-function: ease;
+}
+.div2{
+    animation-timing-function: linear;
+}
+.div3{
+    animation-timing-function: ease-in;
+}
+.card3{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.card3 p{
+    color: rgb(101, 111, 127);
+}
+.card33{
+    background-color: rgb(12, 13, 25);
+    color: white;
+    border: solid 0.0625rem rgb(16, 32, 35);
+    border-radius: 0.3125rem;
+    padding: 2.1875rem;
+    margin: 0.625rem;
+    text-align: center;
+    transition: 0.5s;
+}
+.space:hover{
+    transform: translatey(-0.3125rem) rotate(3deg) scale(1.1);
+    box-shadow: 0rem 0.125rem 0.8125rem rgb(61, 152, 154);
+    border: solid 0.0813rem rgb(61, 152, 154);
+    border-radius: 0.3125rem;
+}
+.galaxy:hover{
+    transform: translatey(-0.3125rem) rotate(-3deg) scale(1.1);
+    box-shadow: 0rem 0.125rem 0.8125rem rgb(61, 152, 154);
+    border: solid 0.0813rem rgb(61, 152, 154);
+    border-radius: 0.3125rem;
+}
+.star:hover{
+    transform: translatey(-0.3125rem) rotate(-3deg) scale(1.1);
+    box-shadow: 0rem 0.125rem 0.8125rem rgb(61, 152, 154);
+    border: solid 0.0813rem rgb(61, 152, 154);
+    border-radius: 0.3125rem;
+}

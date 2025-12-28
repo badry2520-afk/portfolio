@@ -1,0 +1,29 @@
+h1{
+    background-color: rgb(70, 96, 224);
+}
+
+.a{
+    background-color: rgb(70, 96, 224);
+}
+
+div{
+    background-color: rgb(211, 223, 254);
+}
+
+span{
+    background-color: rgb(249, 3, 85);
+    color: white;
+}
+
+del{
+    background-color: rgb(241, 154, 154);
+}
+
+u{
+    background-color: aqua;
+}
+
+thead{
+    background-color: rgb(112, 112, 249);
+    color: white;
+}

@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    color: rgb(0, 255, 156);
+}
+header{
+    text-align: center;
+}
+p{
+    color: rgb(50, 52, 52);
+}
+h4{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.cardx{
+    background-color: rgb(26, 26, 26);
+    width: 25%;
+    margin: 15px auto;
+    padding: 25px;
+    border: rgb(50, 52, 52) solid 1px;
+    border-radius: 4px;
+    transition: 1s;
+}
+.card{
+    background-color: rgb(26, 26, 26);
+    width: 25%;
+    margin: 15px auto;
+    padding: 25px;
+    border: rgb(50, 52, 52) solid 1px;
+    border-radius: 4px;
+}
+.hc{
+    background-color: rgb(0, 255, 156);
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    transition: 1s;
+}
+.cardx:hover{
+    box-shadow: 0px 3px 10px rgb(0, 255, 156);
+    transform: scale(1.1);
+}
+.hc:hover{
+    transform: scale(1.1);
+}
+.card:active{
+    box-shadow: 0px 3px 10px rgb(0, 255, 156);
+    transform: scale(1.1);
+}
+input{
+    background-color: rgb(42, 42, 42);
+    border: rgb(50, 52, 52) solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+input:focus{
+    outline: solid 2px rgb(0, 255, 156);
+}
+div{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    border: rgb(50, 52, 52) solid 1px;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+.before div::before{
+    content: "\2605";
+    color: rgb(0, 255, 156);
+}
+.after div::after{
+    content: "→";
+    color: rgb(0, 255, 156);
+    display: inline-block;
+    transition: 1s;
+}
+.after div:hover::after{
+    transform: translatex(10px);
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}

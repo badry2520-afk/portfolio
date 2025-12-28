@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(225, 225, 225);
+}
+header{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-bottom: solid rgb(128, 128, 128);
+}
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+h2{
+    margin-bottom: 8px;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(165, 162, 177);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+}
+input,textarea,select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px rgba(128, 128, 128, 0.511);
+}
+main{
+    margin: 20px;
+}
+form{
+    border: solid 2px rgb(165, 162, 177);
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.submit{
+    background-color: rgb(68, 168, 73);
+    color: white;
+    padding: 6px 12px;
+    width: fit-content;
+}
+table{
+    width: 100%;
+    border: solid rgb(243, 243, 243);
+
+}
+thead{
+    background-color: rgb(243, 243, 243);
+}
+td{
+    border: solid rgb(243, 243, 243);;
+}
+audio{
+    border: solid rgb(243, 243, 243);
+    width: 100%;
+}
+video{
+    border: solid rgb(243, 243, 243);
+    width: 100%;
+}
+img{
+    border: solid rgb(243, 243, 243);
+    width: 100%;
+}
+ul,ol{
+    border: solid rgb(243, 243, 243);
+    width: 100%;
+    border-radius: 10px;
+}
+.list{
+    border-left:solid 2px rgba(128, 128, 128, 0.33);
+}

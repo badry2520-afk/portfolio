@@ -1,0 +1,52 @@
+body{
+    background-image: url(pexels-anna-nekrashevich-8534457.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 0%;
+}
+header{
+    background-color: rgb(49, 143, 210);
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    margin: 0%;
+}
+a{
+    color: white;
+    margin: 10px;
+}
+nav{
+    background-color: rgba(39, 48, 58, 0.893);
+    text-align: center;
+    padding: 8px;
+}
+h2{
+    color: rgba(47, 145, 210, 0.803);
+}
+section{
+    background-color: rgba(255, 255, 255, 0.942);
+    color: black;
+    border: solid 0px;
+    border-radius: 4px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+}
+h5{
+    background-color: rgb(47, 144, 210);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.web{
+    color: blue;
+}
+footer{
+    background-color: rgba(49, 143, 210, 0.837);
+    text-align: center;
+    padding: 20px;
+}

@@ -91,6 +91,7 @@ nav button:hover{
 nav h1,span{
     color: rgb(112, 68, 0);
     text-shadow: rgb(112, 68, 0) 0px 0px 15px;
+    font-style: italic;
 }
 main{
     display: flex;
@@ -100,7 +101,7 @@ main{
     align-items: center;
 }
 .img{
-    width: 50%;
+    width: 40%;
     animation-name: img;
     animation-duration: 2s;
     animation-fill-mode: both;
@@ -108,11 +109,11 @@ main{
 }
 @keyframes img{
     0%{
-        transform: scale(0.5px);
+        transform: scale(0.5);
         opacity: 0;
     }
     100%{
-        transform: scale(1px);
+        transform: scale(1);
         opacity: 1;
     }
 } 
@@ -128,7 +129,7 @@ main{
 }
 @keyframes text{
     0%{
-        transform: translateX(100px);
+        transform: translateX(20%);
         opacity: 0;
     }
     100%{
@@ -145,7 +146,7 @@ main{
 }
 @keyframes butt{
     0%{
-        transform: translateX(500px);
+        transform: translateX(20%);
         opacity: 0;
     }
     100%{
@@ -170,12 +171,11 @@ main{
     padding: 5px;
     width: 50px;
     height: 50px;
-    border: solid 2px rgb(112, 68, 0);
+    border: solid 3px rgb(112, 68, 0);
     border-radius: 50%;
     transition: 0.5s;
     font-size: 30px;
     color: rgb(112, 68, 0);
-
 }
 .icons div:hover{
     background-color: rgb(112, 68, 0);
@@ -191,42 +191,40 @@ main{
     color: white;
 }
 
-
-
-
-@media (max-width: 600px) {
-    nav{
-        flex-direction: column; 
-    }
-    .card{
-        flex-direction: column;
-    }
-    nav button{
-        margin: 15px;
-        animation-name: butt;
-        animation-duration: 2s;
-        animation-delay: 1.5s;
-        animation-fill-mode: forwards;
+.cursor{
+    animation: cursor 0.5s infinite;
+}
+@keyframes cursor{
+    0%{
         opacity: 0;
     }
-    @keyframes butt{
-        0%{
-            transform: translateY(50px);
-            opacity: 0;
-        }
-        100%{
-            transform: translateY(0px);
-            opacity: 1;
-        }
-    } 
-    
-    main{
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+@media (max-width: 900px) {
+    nav{
+        flex-direction: column; 
+        position: static;
+    }
+    nav .card{
         flex-direction: column;
     }
-    .text{
-        margin: 25px 0px;
+    .card ul{
+        margin: 20px 0px;
     }
-    .img{
-        margin-top: 100px;
+    main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .text,.img{
+        width: 100%;
+    }
+    .icons{
+        justify-content: center;
     }
 }
